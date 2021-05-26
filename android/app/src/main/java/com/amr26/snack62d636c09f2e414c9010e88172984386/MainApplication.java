@@ -1,5 +1,6 @@
 package com.amr26.snack62d636c09f2e414c9010e88172984386;
 
+import com.rusel.RCTBluetoothSerial.*;
 import android.app.Application;
 import android.content.Context;
 import android.net.Uri;
@@ -46,6 +47,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       List<ReactPackage> packages = new PackageList(this).getPackages();
       packages.add(new ModuleRegistryAdapter(mModuleRegistryProvider));
+      packages.add(new RCTBluetoothSerialPackage());
       return packages;
     }
 
