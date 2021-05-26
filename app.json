@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "smart-home",
+    "slug": "snack-62d636c0-9f2e-414c-9010-e88172984386",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.amr26.snack62d636c09f2e414c9010e88172984386"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
